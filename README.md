@@ -6,13 +6,12 @@ This repository holds a simple script to install the following:
 - Oh my ZSH!: Framework for customizing ZSH shell
 - tldr: Supplement to man pages, emphasis on examples and accessible explanations.
 
-**PreRequisites**
+**Pre-Requisites**
 - X-Code
-` x-code--select --install`
+To test if you have xcode installed run: `xcode--select --version` & to install run ` xcode--select --install`
 
 ## To Run
 Ensure the permissions are correct (if you get a permission error run `chmod+ x shelling.sh`) and run `./shelling.sh`
-
 
 
 ## [Control Operators](#control-operators)
@@ -33,16 +32,17 @@ done
 ```
 
 ## [Arrays in Bash](#bash-arrays)
-- Instantiation:
+Instantiation:
  ```
 compound assignment:  myArray=( each word is an item ) 
 indexed assignment: myArray[#]=<value@index>
  ```
  - Array Range:
- Bash arrays start at 1, not 0.  Don't ask me why, but I promise it's true.
+ Bash arrays start at 1, not 0.  
  
  - Looping over arrays:
 Use the syntax `"${arrayName[@]}"`
+
 - the `@` ensures you access more than the first item & the quotes prevent unexpected splitting which may not be an issue but will be hard to troubleshoot if it is.
 
 ## [Script Parameters](#script-parameters)
