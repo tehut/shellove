@@ -21,7 +21,8 @@ The most common control operators in BASH are: `&& , ||, ;`
 - Use `&&` to join two commands on the condition that the first command is successfull
 - Use `||` to join two commands on the condition that the first command fails
 - Use `;` to join two commands independent of the first command's return code
-
+_________
+# Notes
 ## [Loops](#loops)
 ```
 myAarray=( each word is an item )
@@ -47,11 +48,12 @@ Use the syntax `"${arrayName[@]}"`
 
 ## [Script Parameters](#script-parameters)
 Passing parameters to a script is as simple as typing the parameters in a space delimited list just after the script invocation.
-``
+```
 $ ./shelling.sh tehutgetahun zsh
 ```
 
 From inside the script I'd be able to reference those parameters:
+```
 - Entire command: $0
 - First argument: $1
 - Nth argument: $n
