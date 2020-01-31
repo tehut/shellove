@@ -1,3 +1,4 @@
+# 🐚 Love
 This repository holds a simple script to install the following:
 - Homebrew: Package manager for OSX
 - Iterm2: Alternative to Terminal.app
@@ -5,7 +6,7 @@ This repository holds a simple script to install the following:
 - Oh my ZSH!: Framework for customizing ZSH shell
 - tldr: Supplement to man pages, emphasis on examples and accessible explanations.
 
-**PreRequisites*
+**PreRequisites**
 - X-Code
 ` x-code--select --install`
 
