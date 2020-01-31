@@ -1,3 +1,18 @@
+This repository holds a simple script to install the following:
+- Homebrew: Package manager for OSX
+- Iterm2: Alternative to Terminal.app
+- ZSH: Alternative to BASH shell
+- Oh my ZSH!: Framework for customizing ZSH shell
+- tldr: Supplement to man pages, emphasis on examples and accessible explanations.
+
+**PreRequisites*
+- X-Code
+` x-code--select --install`
+
+## To Run
+Ensure the permissions are correct (if you get a permission error run `chmod+ x shelling.sh`) and run `./shelling.sh`
+
+
 
 ## [Control Operators](#control-operators)
 According to the manual:
@@ -36,10 +51,10 @@ $ ./shelling.sh tehutgetahun zsh
 ```
 
 From inside the script I'd be able to reference those parameters:
-- *Entire command* $0
-- *First argument* $1
-- *Nth argument* $n
-
+- Entire command: $0
+- First argument: $1
+- Nth argument: $n
+```
 
 ## [~/.bash_profile vs ~/.bashrc](#shells)
   Your `.bash_profile` file is responsible for configuring interactive (login) shells and your `.bashrc` profile configures all other profiles.  
