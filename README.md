@@ -12,7 +12,12 @@ To test if you have xcode installed run: `xcode--select --version` & to install 
 
 ## To Run
 Ensure the permissions are correct (if you get a permission error run `chmod+ x shelling.sh`) and run `./shelling.sh`
+_________
+# Notes
 
+The install script doesn't customize your configurations at all but read the works cited section in my slide deck and you can get all the info you need on customizing your installation.
+
+The section offer examples of key scripting concepts not covered in the `shelling.sh` script.
 
 ## [Control Operators](#control-operators)
 According to the manual:
@@ -21,8 +26,7 @@ The most common control operators in BASH are: `&& , ||, ;`
 - Use `&&` to join two commands on the condition that the first command is successfull
 - Use `||` to join two commands on the condition that the first command fails
 - Use `;` to join two commands independent of the first command's return code
-_________
-# Notes
+
 ## [Loops](#loops)
 ```
 myAarray=( each word is an item )
