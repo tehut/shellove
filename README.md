@@ -10,9 +10,12 @@ This repository is a companion to my talk at Adiecon 2020 *Improving Productivit
 *[Improving Productivity: Terminal Tricks and Unix Scripts](https://docs.google.com/presentation/d/1NL9aFGQ5i15OGHialvAMoIMPTaxnoLi3x_NxSDKGD5Y/edit?usp=sharing)*
 
 There is a super thorough Works Cited list at the end of the slide deck with tutorials and blogs that I referenced while putting together the slides.  I highly recommend you check those authors out if you're setting up a MacOS dev environment and want ideas on how to customize your environment for optimal productivity and joy.
-**Pre-Requisites**
+
+## Pre-Requisite
 - X-Code
-To test if you have xcode installed run: `xcode--select --version` & to install run ` xcode--select --install`
+To test if you have xcode installed run: `xcode--select --version` 
+
+To install run ` xcode--select --install`
 
 ## To Run
 Ensure the permissions are correct (if you get a permission error run `chmod+ x shelling.sh`) and run `./shelling.sh`
