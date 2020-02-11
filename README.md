@@ -12,7 +12,8 @@ This repository is a companion to my talk at Adiecon 2020 *Improving Productivit
 There is a super thorough Works Cited list at the end of the slide deck with tutorials and blogs that I referenced while putting together the slides.  I highly recommend you check those authors out if you're setting up a MacOS dev environment and want ideas on how to customize your environment for optimal productivity and joy.
 
 ## Pre-Requisite
-- X-Code
+**X-Code**
+
 To test if you have xcode installed run: `xcode--select --version` 
 
 To install run ` xcode--select --install`
