@@ -1,5 +1,5 @@
 # 🐚 Love
-This repository is a companion to my talk at Adiecon 2020 *Improving Productivity: Terminal Tricks and Unix Scripts* and intended as an example of how even incredbly simple BASH scripts can save time and serve as personal documentation. The following simple script installs the following:
+This repository is a companion to my talk at Adiecon 2020 [*Improving Productivity: Terminal Tricks and Unix Scripts*](https://www.youtube.com/watch?v=1vcn4jQpSFM) and intended as an example of how even incredbly simple BASH scripts can save time and serve as personal documentation. The following simple script installs the following:
 - Homebrew: Package manager for OSX
 - Iterm2: Alternative to Terminal.app
 - ZSH: Alternative to BASH shell
