@@ -76,4 +76,4 @@ From inside the script I'd be able to reference those parameters:
 - General convention is to write all of your configuration in the `.bashrc` file and `source ~/.bashrc ` to the top of your `.bash_profile`.
 - If you're running zsh all you need to worry about is configuring your `.zshrc` file, zsh wil handle the rest.
 
-
+blah blah blah
